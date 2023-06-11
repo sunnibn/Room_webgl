@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Room</title>
+  </head>
+
+  <body onload="main()" style="background-color: #f5d48f">
+    <div align="center">
+      <canvas id="webgl" width="1000" height="600" style="padding: 30px">
+      Please use a browser that supports "canvas"
+      </canvas>
+      <p>Use <strong>Arrow keys</strong> to move the camera around, use <strong>+/- keys</strong> to zoom in/out.</p>
+      <p>Press <strong>F</strong> to move the fan. Press <strong>D</strong> to open/close the door. Press <strong>L</strong> to turn on/off the light.</p>
+      <br />
+      <p>Press <strong>T</strong> to turn on/off the tv. The remote controller's buttons will move on every press.</p>
+      <p>Press <strong>1</strong> to move to previous channel, press <strong>2</strong> to move to next channel.</p>
+    </div>
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script src="../lib/cuon-matrix.js"></script>
+    <script src="./room.js"></script>
+  </body>
+</html>
